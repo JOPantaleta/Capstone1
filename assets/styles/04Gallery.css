@@ -1,0 +1,150 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	height: 100%;
+	width: 100%
+}
+
+#main-container,
+#nav-container, 
+#photo-container {
+	margin:0;
+	padding:0;
+	box-sizing:content-box;
+}
+
+#nav-container {
+	margin:0;
+	padding:0;
+}
+
+#navcase {
+	margin:0 0 1vw 0;
+	padding:0;
+	background:linear-gradient(to bottom, #33cccc 20%, white 100%) !important;
+}
+#navcase2 {
+	margin:0;
+	padding:0;
+	background:linear-gradient(to top, #33cccc 20%, white 100%) !important;
+}
+
+#navbuttons {
+	font-size: 10pt !important;
+	margin:.5vw 0 .5vw 0;
+}
+
+#navi-links a {
+	border: none;
+	border-radius: none;
+	background-color: none;
+	margin:.5vw 3vw .5vw 3vw !important;
+	padding: .5vw 3vw .5vw 3vw !important;
+	font-weight: bold;
+	color: #006666;
+	font-family: 'Satisfy', cursive;
+	font-size: 15pt;
+}
+
+
+#navi-links a:hover {
+	border: 2px white solid;
+	border-radius: 10px;
+	background-color: #006666;
+	color: white;
+}
+
+#navi-links a.active {
+	border: 2px white solid ;
+	border-radius: 10px;
+	background-color: #006666;
+	color: white;
+}
+
+
+.logo-brand {
+	transform: scale(1.1);
+	margin:2vw 0 0 0;
+	padding:0;
+	box-sizing:content-box;
+}
+
+#photo-header {
+	border: none !important;
+	height: 25vw;
+}
+
+#card-container {
+	height:100%;
+	width:100%;
+	margin:0;
+	border: none;
+	padding:0;
+	box-sizing:content-box;
+}
+
+#bannerheader {
+	margin: 0 0 0 0;
+	font-size: 35pt !important;
+	font-weight: bold;
+	color: #006666;
+	font-family: 'Satisfy', cursive;
+	font-size: 30pt;
+}
+
+#bannerparagraph {
+	margin: 0 0 0 0;
+	font-size: 12pt;
+	font-family: 'Roboto', sans-serif;
+}
+
+#gallery-box {
+	margin: 0 10vw 0 10vw;
+}
+
+#philippines,
+#kenya,
+#japan {
+	font-family: 'Satisfy', cursive;
+	font-size: 25pt;
+	background: linear-gradient(to right, #ccffcc 15%, #66ccff 100%);
+}
+
+.card-text {
+	font-size: 11pt;
+	font-family: 'Roboto', sans-serif;
+}
+
+#kenyatext {
+	padding: 0 20vw 0 20vw !important;
+}
+
+.card-body h5 {
+	color: #006666;
+	font-family: 'Satisfy', cursive;
+	font-size: 20pt;
+}
+
+.card-body p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+}
+
+.modal-header h3 {
+	color: #006666;
+	font-family: 'Satisfy', cursive;
+	font-size: 25pt;
+}
+
+.footer {
+  height:30px;
+  width:100%;
+  color: white;
+  font-size: 10pt;
+  margin:5px 0 0 0;
+  padding: 0;
+  box-sizing: content-box;
+  background:linear-gradient(to top, #006666 20%, white 100%) !important;
+  font-family: 'Roboto', sans-serif;
+}

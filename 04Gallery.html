@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<title>Gallivant</title>
+	<link rel="icon" type="image/ico" href="assets/images/logo.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Satisfy" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="assets/styles/04Gallery.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/styles/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- linking of Popper.js -->
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+
+	<!-- linking of JQuery -->
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<!-- linking of JS. NOTE: JS is best position at the bottom of the html page -->
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="main-container" class="container-fluid">
+		<div id="nav-container" class="container-fluid">
+			<nav id="navcase2" class="navbar navbar-expand-lg navbar-light bg-dark">
+				<a class="navbar-brand mr-auto ml-auto" href="02Home.html">
+					<img class="img-fluid logo-brand align-middle" src="assets/images/logo.png">
+				</a>
+			</nav>
+			<nav id="navcase" class="navbar navbar-expand-lg navbar-light bg-dark">
+
+
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+
+
+
+				<div id="navbar-nav" class="collapse navbar-collapse">
+					<ul id="navbuttons" class="navbar-nav mx-auto">
+
+						<li id="navi-links" class="nav-item navbtn ml-auto mr-auto">
+							<a class="nav-link" href="02Home.html">Home</a>
+						</li>
+
+						<li id="navi-links" class="nav-item navbtn ml-auto mr-auto">
+							<a class="nav-link" href="03About.html">About Us</a>
+						</li>
+
+						<li id="navi-links" class="nav-item navbtn ml-auto mr-auto">
+							<a class="nav-link active" href="#">Gallery</a>
+						</li>
+
+						<li id="navi-links" class="nav-item navbtn ml-auto mr-auto">
+							<a class="nav-link" href="05Contact.html">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- Header -->
+		<div id="card-container" class="container-fluid">
+			<div class="card mb-3">
+				<img id="photo-header" class="card-img-top" src="assets/images/04Gallery/gallery.jpg" alt="Card image cap">
+				<div class="card-body text-center">
+					<h1 id="bannerheader" class="card-title">Travel Gallery</h1>
+					<p id="bannerparagraph" class="card-text">Capture every scenery. Seize every experience. Make every moment count.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Photo Gallery -->
+		<div id="photo-container" class="container-fluid">
+			<div class="card mb-3">
+
+				<!-- Card Deck of Feature 1 -->
+				<!-- Card Body -->
+				<div class="card-body text-center">
+					<h5 id="philippines" class="card-title">The Philippines</h5>
+					<p class="card-text">As it is laid in the Pacific Ocean like beads of pearls, the Philippines is a country extravagant of natural beauty.</p>
+				</div>
+				<!-- Card Deck -->
+				<div id="gallery-box" class="card-deck"> 
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#mountain" src="assets/images/04Gallery/Philippines/01mountain.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="mountain" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="mountain">Mt. Talamitam</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Philippines/01mountain.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="card-body">
+							<h5 class="card-title">Emerald Landscapes</h5>
+							<p class="card-text text-justify">Despite surrounded by bodies of water, the country is rich with mountains and rice fields. A way of life and livelihood of most Filipinos across the archipelago is agriculture due to the wealth of greenlands.</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#manilaharbor" src="assets/images/04Gallery/Philippines/02manila.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="manilaharbor" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="manilaharbor">Manila Harbor</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Philippines/02manila.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title text-justify">Beaming Citylights</h5>
+							<p class="card-text  text-justify">The National Capital Region is the home of the business districts of the country. It is brimful of skyscrapers and men and women in corporate attire on daylights. At night, the cities of the region color the nighfall with hues of lights.</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#beachfront" src="assets/images/04Gallery/Philippines/03city.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="beachfront" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="beachfront">Malamawi Beach</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Philippines/03city.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Cerulean Sea Water</h5>
+							<p class="card-text  text-justify">A spectacle of crystal clear beachfronts shower over the country from the northest of the archipelago to down south. </p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Card Deck of Feature 2 -->
+				<!-- Card Body -->
+				<div class="card-body text-center">
+					<h5 id="kenya" class="card-title">Kenya</h5>
+					<p id="kenyatext" class="card-text text-justify">Boasting with diverse wildlife, Kenya is a simple country situated in the continent of Africa. Customs and traditions are things of curiosity in Kenya.</p>
+				</div>
+				<!-- Card Deck -->
+				<div id="gallery-box" class="card-deck"> 
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#savannah" src="assets/images/04Gallery/Kenya/01kenya.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="savannah" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="savannah">Savannah</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Kenya/01kenya.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Terrestrial Hues</h5>
+							<p class="card-text">Kenya's terrains are mostly savannahs that attract different wildlife from predators to preys. </p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#wildlife" src="assets/images/04Gallery/Kenya/02kenya.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="wildlife" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="wildlife">People of Kenya</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Kenya/02kenya.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Kenyans</h5>
+							<p class="card-text">Majority of Kenyans belongs to the <em>Bantu</em> such Kikuyu, Luhya and Kamba. There are also <em>Nilotic</em> and <em>Hamitic</em>.</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#oasis" src="assets/images/04Gallery/Kenya/03kenya.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="oasis" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="oasis">A zeal of zebra</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Kenya/03kenya.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Diversity</h5>
+							<p class="card-text">There are a dozen of creatures purring in the great savannah of Kenya. </p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Card Deck of Feature 3 -->
+				<!-- Card Body -->
+				<div class="card-body text-center">
+					<h5 id="japan" class="card-title">Japan</h5>
+					<p class="card-text">Known as the Land of the Rising Sun, the country has its reputation as one of the superpowers of the world.</p>
+				</div>
+				<!-- Card Deck -->
+				<div id="gallery-box" class="card-deck">
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#gaesha" src="assets/images/04Gallery/Japan/01Japan.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="gaesha" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="gaesha">Gaeshas</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Japan/01Japan.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Traditions and people</h5>
+							<p class="card-text text-justify">Despite the advancement in the modern cities, Japan still managed to preserve their cultures. As such, the presence of Gaeshas in the modern era.</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#tradmeetstech" src="assets/images/04Gallery/Japan/02Japan.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="tradmeetstech" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="tradmeetstech">Kyoto, Japan</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Japan/02Japan.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title">Cityscape</h5>
+							<p class="card-text text-justify">Towering building dominate the central districts of Kyoto. The city is equipped with state-of-the-art transportations and technology.</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top btn" data-toggle="modal" data-target="#architecture" src="assets/images/04Gallery/Japan/03Japan.jpg" alt="Card image cap">
+
+						<!-- modal -->
+						<div class="modal fade" id="architecture" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title" id="architecture">Imperial Pagodas</h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+									<div class="modal-body">
+										<img class="card-img-top img-fluid" src="assets/images/04Gallery/Japan/03Japan.jpg" alt="Card image cap">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Architectural Heritage</h5>
+							<p class="card-text text-justify">Imperial temples and pagodas are still present up to this modern days despite the distant past of their existence. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="footer bg-dark text-center">
+			Copyright &copy; Jom.P 2018
+		</div>
+	</div>
+
+</body>
+</html>

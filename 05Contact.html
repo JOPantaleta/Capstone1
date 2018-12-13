@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<title>Gallivant</title>
+	<link rel="icon" type="image/ico" href="assets/images/logo.png">
+
+	<link rel="stylesheet" type="text/css" href="assets/styles/05Contact.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/styles/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Satisfy" rel="stylesheet">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- linking of Popper.js -->
+	<script type="text/javascript" src="assets/js/popper.min.js"></script>
+
+	<!-- linking of JQuery -->
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<!-- linking of JS. NOTE: JS is best position at the bottom of the html page -->
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div id="main-container" class="container-fluid">
+		<div id="nav-container" class="container-fluid">
+			<nav id="navcase2" class="navbar navbar-expand-lg navbar-light bg-dark">
+				<a class="navbar-brand mr-auto ml-auto" href="02Home.html">
+					<img class="img-fluid logo-brand align-middle" src="assets/images/logo.png">
+				</a>
+			</nav>
+			<nav id="navcase" class="navbar navbar-expand-lg navbar-light bg-dark">
+
+
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+
+
+
+				<div id="navbar-nav" class="collapse navbar-collapse">
+					<ul id="navbuttons" class="navbar-nav mx-auto">
+
+						<li id="navi-links" class="nav-item navbtn ml-auto mr-auto">
+							<a class="nav-link" href="02Home.html">Home</a>
+						</li>
+
+						<li id="navi-links" class="nav-item navbtn ml-auto mr-auto">
+							<a class="nav-link" href="03About.html">About Us</a>
+						</li>
+
+						<li id="navi-links" class="nav-item navbtn ml-auto mr-auto">
+							<a class="nav-link" href="04Gallery.html">Gallery</a>
+						</li>
+
+						<li id="navi-links" class="nav-item navbtn ml-auto mr-auto">
+							<a class="nav-link active" href="#">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- Header -->
+		<div id="card-container" class="container-fluid">
+
+			<div class="card mb-3">
+				<img id="contact-img-header" class="card-img-top" src="assets/images/05Contact/contactbanner2.jpg" alt="Card image cap">
+				<div class="card-body text-center">
+					<a id="contact-link" class="btn" href="#contact-container"><h1 id="bannerheader" class="card-title">Let's Connect</h1></a>
+					<p id="bannerparagraph" class="card-text">We would love to assist you with your travel goals.</p>
+				</div>
+			</div>
+
+		<!-- Contact -->
+		<div id="contact-container" class="container-fluid">
+			
+			<div id="contact-form" class="row">
+				<div id="contact-map" class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.72957046671!2d121.02016711461661!3d14.557451182035884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c905f91cebeb%3A0x9d416046d1a888f!2sPS+Bank+Center%2C+Makati%2C+Metro+Manila!5e0!3m2!1sen!2sph!4v1544357458051" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div  class="col col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<form >
+						<div class="form-group">
+							<label for="formGroupExampleInput">Full Name</label>
+							<input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+						</div>
+
+						<div class="form-group">
+							<label for="exampleFormControlInput1">Email address</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+						</div>
+
+						<div class="form-group">
+							<label for="formGroupExampleInput">Mobile Number</label>
+							<input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+						</div>
+
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">Message</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="How can I help?"></textarea>
+						</div>
+						<div class="d-block">
+							<button type="submit" class="btn btn-primary mb-2">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="footer bg-dark text-center">
+			Copyright &copy; December 2018
+		</div>
+	</div>
+
+</body>
+</html>
