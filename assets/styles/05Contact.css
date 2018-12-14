@@ -156,11 +156,14 @@ form {
 
 #media-icons {
 	font-size: 15pt;
+	padding:0;
+	margin:0;
 }
 
 #medialink1,
 #medialink2 {
 	margin:0;
+	padding:0;
 }
 
 
