@@ -32,7 +32,7 @@
 	<div id="main-container" class="container-fluid">
 		<div id="nav-container" class="container-fluid">
 			<nav id="navcase2" class="navbar navbar-expand-lg navbar-light bg-dark">
-				<a class="navbar-brand mr-auto ml-auto" href="#">
+				<a class="navbar-brand mr-auto ml-auto" href="index.html">
 					<img class="img-fluid logo-brand align-middle" src="assets/images/logo.png">
 				</a>
 			</nav>
@@ -71,7 +71,7 @@
 		</div>
 		<!-- Carousel -->
 		<div id="carousel-container" class="container-fluid">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<div id="carouselExampleIndicators" class="carousel slide animated fadeIn delay-1s" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -108,7 +108,7 @@
 		</div>
 		<!-- Features -->
 		<div class="feature-container">
-			<div id="card-group" class="card text-center">
+			<div id="card-group" class="card text-center animated fadeIn delay-2s">
 				<div id="featurehead" class="card-header text-CENTER">
 					Discover. Experience. Immerse.
 
@@ -117,7 +117,7 @@
 
 				<div class="card-body">
 					<div  class="card-deck text-center">
-						<div id="card-box" class="card">
+						<div id="card-box" class="card animated fadeIn delay-3s">
 							<img id="feature-photo" class="card-img-top img-fluid" src="assets/images/02Home/feature/feature1.jpeg" alt="Card image cap">
 							<div id="feature-text" class="card-body">
 								<h3 id="feature-title" class="card-title">Pearl of the Orients</h3>
@@ -126,7 +126,7 @@
 							</div>
 						</div>
 
-						<div id="card-box" class="card">
+						<div id="card-box" class="card animated fadeIn delay-4s">
 							<img id="feature-photo" class="card-img-top img-fluid" src="assets/images/02Home/feature/feature2.jpg" alt="Card image cap">
 							<div id="feature-text" class="card-body">
 								<h3 id="feature-title" class="card-title">Beyond Asia</h3>
@@ -135,7 +135,7 @@
 							</div>
 						</div>
 
-						<div id="card-box" class="card">
+						<div id="card-box" class="card animated fadeIn delay-5s">
 							<img id="feature-photo" class="card-img-top img-fluid" src="assets/images/02Home/feature/feature3.jpeg" alt="Card image cap">
 							<div id="feature-text" class="card-body">
 								<h3 id="feature-title" class="card-title">Land of the Rising Sun</h3>
@@ -149,11 +149,30 @@
 
 
 				</div>
-<!-- 				<div class="card-footer text-muted">
-					
-				</div> -->
 			</div>
 		</div>
+
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+		<script type="text/javascript">
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("myBtn").style.display = "block";
+				} else {
+					document.getElementById("myBtn").style.display = "none";
+				}
+			}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 		<!-- Footer -->
 		<div class="footer bg-dark text-center">
 			Copyright &copy; Jom.P 2018

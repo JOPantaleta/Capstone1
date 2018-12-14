@@ -30,9 +30,9 @@
 </head>
 <body>
 	<div id="main-container" class="container-fluid">
-		<div id="nav-container" class="container-fluid">
+		<div id="nav-container" class="container-fluid ">
 			<nav id="navcase2" class="navbar navbar-expand-lg navbar-light bg-dark">
-				<a class="navbar-brand mr-auto ml-auto" href="02Home.html">
+				<a class="navbar-brand mr-auto ml-auto" href="index.html">
 					<img class="img-fluid logo-brand align-middle" src="assets/images/logo.png">
 				</a>
 			</nav>
@@ -71,7 +71,7 @@
 		</div>
 		<!-- About Us-->
 		<div id="page-container" class="container-fluid">
-			<div id="about-container" class="jumbotron jumbotron-fluid text-center bg-transparent">
+			<div id="about-container" class="jumbotron jumbotron-fluid text-center bg-transparent animated fadeIn delay-1s">
 				<h3 id="abouthead" class="display-4"><em>About Us</em></h3>
 				<hr class="my-4">
 				<p class="text-justify">We are a team of young professionals from the fields of medical science, finance and education who are passionate of exploring places and sharing those experiences with people through this media. We believe that discoverubf the world is liberating to the soul. It broadens everyone's perspective and allows us to be more part of the populace. More than the places that we get to visit are the people that we meet along the journey. We get to understand their culture and traditions. With such, a deeper understanding with another human is born. A form of respect that transcends any other as it creates ties between strangers from different walks of life.</p>
@@ -79,7 +79,7 @@
 		</div>
 		<!-- Vision-Mission -->
 		<div  class="container-fluid">
-		<div id="v-m-container" class="card-deck">
+		<div id="v-m-container" class="card-deck animated fadeIn delay-2s">
 			<div class="card">
 				<div class="card-body">
 					<em><h3 id="missionhead" class="card-title text-center">Mission</h3></em>
@@ -94,6 +94,27 @@
 			</div>
 		</div>
 	</div>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+		<script type="text/javascript">
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("myBtn").style.display = "block";
+				} else {
+					document.getElementById("myBtn").style.display = "none";
+				}
+			}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 		<!-- Footer -->
 		<div class="footer bg-dark text-center">
 			Copyright &copy; Jom.P 2018

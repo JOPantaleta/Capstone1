@@ -128,15 +128,60 @@ body, html {
 	font-family: 'Roboto', sans-serif;
 }
 
+form {
+	margin-bottom: 2vw;
+}
+
 #contact-link {
 	margin:0;
 	padding:0;
 }
 
+
 .d-block button {
 	font-size: 12pt;
 	font-family: 'Roboto', sans-serif;
 }
+
+#socialmediatext {
+	font-family: 'Satisfy', cursive;
+	margin: 0;
+	font-size: 15pt;
+}
+
+.socialmedia {
+	margin: 0 .5vw 0 .5vw;
+	color: #006666;
+}
+
+#media-icons {
+	font-size: 15pt;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #006666; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 100%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#myBtn:hover {
+  background-color: #33cccc; /* Add a dark-grey background on hover */
+  transform: scale(1.2);
+}
+
 
 .footer {
 	height:30px;
