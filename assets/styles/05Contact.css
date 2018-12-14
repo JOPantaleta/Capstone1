@@ -115,7 +115,7 @@ body, html {
 }
 
 #contact-form {
-	margin: 5vw 10vw 5vw 10vw;
+	margin: 5vw 5vw 5vw 5vw;
 }
 
 #bannerparagraph {
@@ -162,8 +162,8 @@ form {
 
 #medialink1,
 #medialink2 {
-	margin:0;
-	padding:0;
+	margin:0 !important;
+	padding:0 !important;
 }
 
 
