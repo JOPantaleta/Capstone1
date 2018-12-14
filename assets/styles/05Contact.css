@@ -158,6 +158,11 @@ form {
 	font-size: 15pt;
 }
 
+#medialink1,
+#medialink2 {
+	margin:0;
+}
+
 
 #myBtn {
   display: none; /* Hidden by default */
